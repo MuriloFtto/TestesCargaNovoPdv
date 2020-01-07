@@ -1,0 +1,878 @@
+2020-01-06 10:09:09,663 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2020-01-06 10:09:09,683 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-01-06 10:09:09,688 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: java.version=1.8.0_231
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: os.name=Windows 10
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: os.arch=x86
+2020-01-06 10:09:09,692 INFO o.a.j.JMeter: os.version=10.0
+2020-01-06 10:09:09,693 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-01-06 10:09:09,693 INFO o.a.j.JMeter: java.awt.headless=null
+2020-01-06 10:09:09,693 INFO o.a.j.JMeter: Max memory     =259522560
+2020-01-06 10:09:09,693 INFO o.a.j.JMeter: Available Processors =4
+2020-01-06 10:09:09,698 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2020-01-06 10:09:09,698 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2020-01-06 10:09:09,698 INFO o.a.j.JMeter: JMeterHome=C:\Users\s152\Desktop\apache-jmeter-5.1.1
+2020-01-06 10:09:09,698 INFO o.a.j.JMeter: user.dir  =C:\Users\s152\Desktop\apache-jmeter-5.1.1\bin
+2020-01-06 10:09:09,699 INFO o.a.j.JMeter: PWD       =C:\Users\s152\Desktop\apache-jmeter-5.1.1\bin
+2020-01-06 10:09:14,204 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: S0152 FullName: S0152
+2020-01-06 10:09:14,487 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-01-06 10:09:14,592 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-01-06 10:09:14,592 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-01-06 10:09:14,700 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-01-06 10:09:17,063 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-06 10:09:17,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-06 10:09:17,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-06 10:09:17,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-06 10:09:17,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-01-06 10:09:17,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-01-06 10:09:17,640 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-01-06 10:09:17,641 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\s152\Desktop\apache-jmeter-5.1.1\bin\proxyserver.jks
+2020-01-06 10:09:17,751 INFO o.a.j.s.FileServer: Default base='C:\Users\s152\Desktop\apache-jmeter-5.1.1\bin'
+2020-01-06 10:09:18,739 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-01-06 10:09:18,740 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-01-06 10:09:18,740 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-01-06 10:09:18,740 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-01-06 10:09:37,903 INFO o.a.j.g.a.Load: Loading file: C:\Users\s152\Desktop\jmeter.xml
+2020-01-06 10:09:37,903 INFO o.a.j.s.FileServer: Set new base='C:\Users\s152\Desktop'
+2020-01-06 10:09:38,151 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-01-06 10:09:38,200 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-01-06 10:09:38,202 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-01-06 10:09:38,205 INFO o.a.j.s.SaveService: Loading file: C:\Users\s152\Desktop\jmeter.xml
+2020-01-06 10:09:38,432 INFO o.a.j.s.FileServer: Set new base='C:\Users\s152\Desktop'
+2020-01-06 10:16:01,364 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-06 10:16:01,365 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 10:16:01,365 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 10:16:01,366 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-01-06 10:16:01,366 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-01-06 10:16:01,776 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-06 10:16:01,780 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-06 10:16:01,780 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-06 10:16:01,780 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group setUp Thread Group.
+2020-01-06 10:16:01,780 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-06 10:16:01,780 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=30 delayedStart=false
+2020-01-06 10:16:01,785 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-06 10:16:01,787 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@11e658a and iteration 1
+2020-01-06 10:16:01,795 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-06 10:16:01,795 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-06 10:16:01,818 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = S0152
+2020-01-06 10:16:01,832 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-01-06 10:16:02,784 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-2
+2020-01-06 10:16:02,784 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@326bc0 and iteration 1
+2020-01-06 10:16:03,783 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-3
+2020-01-06 10:16:03,783 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f36900 and iteration 1
+2020-01-06 10:16:04,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-4
+2020-01-06 10:16:04,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@117cdba and iteration 1
+2020-01-06 10:16:05,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-5
+2020-01-06 10:16:05,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@106f563 and iteration 1
+2020-01-06 10:16:06,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-6
+2020-01-06 10:16:06,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@186c978 and iteration 1
+2020-01-06 10:16:07,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-7
+2020-01-06 10:16:07,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1f89444 and iteration 1
+2020-01-06 10:16:08,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-8
+2020-01-06 10:16:08,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@94795a and iteration 1
+2020-01-06 10:16:09,787 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-9
+2020-01-06 10:16:09,787 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@4764f and iteration 1
+2020-01-06 10:16:10,787 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-10
+2020-01-06 10:16:10,787 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@18c277 and iteration 1
+2020-01-06 10:16:11,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-11
+2020-01-06 10:16:11,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@11ba2ca and iteration 1
+2020-01-06 10:16:12,780 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-12
+2020-01-06 10:16:12,780 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@ec9525 and iteration 1
+2020-01-06 10:16:13,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-13
+2020-01-06 10:16:13,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@e64c69 and iteration 1
+2020-01-06 10:16:14,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-14
+2020-01-06 10:16:14,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@b0a9da and iteration 1
+2020-01-06 10:16:15,780 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-15
+2020-01-06 10:16:15,780 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@14ddb26 and iteration 1
+2020-01-06 10:16:16,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-16
+2020-01-06 10:16:16,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@a56cf4 and iteration 1
+2020-01-06 10:16:17,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-17
+2020-01-06 10:16:17,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@10c1980 and iteration 1
+2020-01-06 10:16:18,780 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-18
+2020-01-06 10:16:18,780 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@195cd42 and iteration 1
+2020-01-06 10:16:19,780 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-19
+2020-01-06 10:16:19,780 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@19dbc4c and iteration 1
+2020-01-06 10:16:20,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-20
+2020-01-06 10:16:20,782 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@da857e and iteration 1
+2020-01-06 10:16:21,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-21
+2020-01-06 10:16:21,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@71edda and iteration 1
+2020-01-06 10:16:22,780 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-22
+2020-01-06 10:16:22,780 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@183801f and iteration 1
+2020-01-06 10:16:23,781 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-23
+2020-01-06 10:16:23,781 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@18fb680 and iteration 1
+2020-01-06 10:16:25,054 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-24
+2020-01-06 10:16:25,055 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1fcaa9b and iteration 1
+2020-01-06 10:16:25,970 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-25
+2020-01-06 10:16:25,971 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@d2c563 and iteration 1
+2020-01-06 10:16:27,022 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-26
+2020-01-06 10:16:27,029 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@4262f4 and iteration 1
+2020-01-06 10:16:27,835 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-27
+2020-01-06 10:16:27,836 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@113bc53 and iteration 1
+2020-01-06 10:16:28,782 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-28
+2020-01-06 10:16:28,783 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f5e394 and iteration 1
+2020-01-06 10:16:30,115 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-29
+2020-01-06 10:16:30,115 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@de5d9b and iteration 1
+2020-01-06 10:16:31,012 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-30
+2020-01-06 10:16:31,013 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1739854 and iteration 1
+2020-01-06 10:31:30,669 INFO o.a.j.g.a.Start: Stopping test
+2020-01-06 10:31:30,679 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-5
+2020-01-06 10:31:30,679 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-5 sampler: administradora PDV
+2020-01-06 10:31:30,680 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-18
+2020-01-06 10:31:30,680 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-18 sampler: administradora PDV
+2020-01-06 10:31:30,681 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-19
+2020-01-06 10:31:30,681 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-19 sampler: administradora PDV
+2020-01-06 10:31:30,682 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-18
+2020-01-06 10:31:30,682 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-5
+2020-01-06 10:31:30,682 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-23
+2020-01-06 10:31:30,682 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-19
+2020-01-06 10:31:30,683 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-23 sampler: administradora PDV
+2020-01-06 10:31:30,683 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-6
+2020-01-06 10:31:30,683 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-6 sampler: administradora PDV
+2020-01-06 10:31:30,684 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-21
+2020-01-06 10:31:30,684 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-21 sampler: administradora PDV
+2020-01-06 10:31:30,685 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-23
+2020-01-06 10:31:30,685 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-6
+2020-01-06 10:31:30,685 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-10
+2020-01-06 10:31:30,685 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-10 sampler: administradora PDV
+2020-01-06 10:31:30,686 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-21
+2020-01-06 10:31:30,686 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-13
+2020-01-06 10:31:30,686 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-13 sampler: administradora PDV
+2020-01-06 10:31:30,686 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-20
+2020-01-06 10:31:30,686 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-20 sampler: administradora PDV
+2020-01-06 10:31:30,686 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-10
+2020-01-06 10:31:30,687 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-13
+2020-01-06 10:31:30,687 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-28
+2020-01-06 10:31:30,687 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-28 sampler: administradora PDV
+2020-01-06 10:31:30,688 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-20
+2020-01-06 10:31:30,688 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-22
+2020-01-06 10:31:30,688 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-22 sampler: administradora PDV
+2020-01-06 10:31:30,689 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-28
+2020-01-06 10:31:30,689 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-1
+2020-01-06 10:31:30,689 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-1 sampler: administradora PDV
+2020-01-06 10:31:30,690 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-16
+2020-01-06 10:31:30,690 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-16 sampler: administradora PDV
+2020-01-06 10:31:30,690 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-22
+2020-01-06 10:31:30,690 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-06 10:31:30,690 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-25
+2020-01-06 10:31:30,691 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-25 sampler: administradora PDV
+2020-01-06 10:31:30,697 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-16
+2020-01-06 10:31:30,697 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-7
+2020-01-06 10:31:30,697 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-25
+2020-01-06 10:31:30,697 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-7 sampler: administradora PDV
+2020-01-06 10:31:30,697 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-11
+2020-01-06 10:31:30,698 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-11 sampler: administradora PDV
+2020-01-06 10:31:30,698 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-7
+2020-01-06 10:31:30,699 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-30
+2020-01-06 10:31:30,699 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-30 sampler: administradora PDV
+2020-01-06 10:31:30,699 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-11
+2020-01-06 10:31:30,700 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-30
+2020-01-06 10:31:30,700 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-27
+2020-01-06 10:31:30,700 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-27 sampler: administradora PDV
+2020-01-06 10:31:30,701 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-17
+2020-01-06 10:31:30,701 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-17 sampler: administradora PDV
+2020-01-06 10:31:30,702 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-27
+2020-01-06 10:31:30,702 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-29
+2020-01-06 10:31:30,702 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-17
+2020-01-06 10:31:30,703 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-29 sampler: administradora PDV
+2020-01-06 10:31:30,705 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-29
+2020-01-06 10:31:30,705 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-24
+2020-01-06 10:31:30,706 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-24 sampler: administradora PDV
+2020-01-06 10:31:30,706 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-8
+2020-01-06 10:31:30,706 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-8 sampler: administradora PDV
+2020-01-06 10:31:30,706 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-24
+2020-01-06 10:31:30,707 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-3
+2020-01-06 10:31:30,707 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-3 sampler: administradora PDV
+2020-01-06 10:31:30,707 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-8
+2020-01-06 10:31:30,707 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-15
+2020-01-06 10:31:30,707 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-15 sampler: administradora PDV
+2020-01-06 10:31:30,707 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-2
+2020-01-06 10:31:30,707 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-2 sampler: administradora PDV
+2020-01-06 10:31:30,707 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-3
+2020-01-06 10:31:30,708 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-15
+2020-01-06 10:31:30,708 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-26
+2020-01-06 10:31:30,708 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-26 sampler: administradora PDV
+2020-01-06 10:31:30,708 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-14
+2020-01-06 10:31:30,708 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-2
+2020-01-06 10:31:30,709 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-26
+2020-01-06 10:31:30,709 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-14 sampler: administradora PDV
+2020-01-06 10:31:30,709 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-9
+2020-01-06 10:31:30,709 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-9 sampler: administradora PDV
+2020-01-06 10:31:30,709 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-14
+2020-01-06 10:31:30,709 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-4
+2020-01-06 10:31:30,709 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-4 sampler: administradora PDV
+2020-01-06 10:31:30,710 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-12
+2020-01-06 10:31:30,710 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-9
+2020-01-06 10:31:30,710 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-12 sampler: administradora PDV
+2020-01-06 10:31:30,710 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-4
+2020-01-06 10:31:30,711 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-12
+2020-01-06 10:31:30,711 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-06 10:31:30,762 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2020-01-06 10:31:30,762 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-06 10:31:30,762 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-01-06 13:58:48,914 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-06 13:58:48,920 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 13:58:48,921 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-06 13:58:48,925 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-06 13:58:48,925 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-06 13:58:48,925 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group setUp Thread Group.
+2020-01-06 13:58:48,925 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-06 13:58:48,925 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=30 delayedStart=false
+2020-01-06 13:58:48,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-06 13:58:48,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@76d09f and iteration 1
+2020-01-06 13:58:48,937 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-06 13:58:48,937 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-06 13:58:49,931 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-2
+2020-01-06 13:58:49,931 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@61d87a and iteration 1
+2020-01-06 13:58:50,931 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-3
+2020-01-06 13:58:50,931 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1785514 and iteration 1
+2020-01-06 13:58:51,933 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-4
+2020-01-06 13:58:51,933 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@6dab8b and iteration 1
+2020-01-06 13:58:52,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-5
+2020-01-06 13:58:52,946 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@10ada63 and iteration 1
+2020-01-06 13:58:53,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-6
+2020-01-06 13:58:53,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@b35b88 and iteration 1
+2020-01-06 13:58:54,929 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-7
+2020-01-06 13:58:54,929 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@147dbe6 and iteration 1
+2020-01-06 13:58:55,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-8
+2020-01-06 13:58:55,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@6e9993 and iteration 1
+2020-01-06 13:58:56,929 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-9
+2020-01-06 13:58:56,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1a05f06 and iteration 1
+2020-01-06 13:58:57,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-10
+2020-01-06 13:58:57,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1d1645 and iteration 1
+2020-01-06 13:58:58,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-11
+2020-01-06 13:58:58,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@13b4f65 and iteration 1
+2020-01-06 13:58:59,930 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-12
+2020-01-06 13:58:59,930 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@19fd330 and iteration 1
+2020-01-06 13:59:00,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-13
+2020-01-06 13:59:00,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@855391 and iteration 1
+2020-01-06 13:59:01,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-14
+2020-01-06 13:59:01,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@c25cb2 and iteration 1
+2020-01-06 13:59:02,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-15
+2020-01-06 13:59:02,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@27824b and iteration 1
+2020-01-06 13:59:03,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-16
+2020-01-06 13:59:03,928 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1440427 and iteration 1
+2020-01-06 13:59:04,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-17
+2020-01-06 13:59:04,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@c6e7a6 and iteration 1
+2020-01-06 13:59:05,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-18
+2020-01-06 13:59:05,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@149267b and iteration 1
+2020-01-06 13:59:06,925 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-19
+2020-01-06 13:59:06,925 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@118097d and iteration 1
+2020-01-06 13:59:07,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-20
+2020-01-06 13:59:07,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1ec5e9f and iteration 1
+2020-01-06 13:59:08,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-21
+2020-01-06 13:59:08,928 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@10a408c and iteration 1
+2020-01-06 13:59:09,925 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-22
+2020-01-06 13:59:09,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8cd3b and iteration 1
+2020-01-06 13:59:10,925 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-23
+2020-01-06 13:59:10,925 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1a77a83 and iteration 1
+2020-01-06 13:59:11,927 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-24
+2020-01-06 13:59:11,928 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@2e4c0e and iteration 1
+2020-01-06 13:59:12,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-25
+2020-01-06 13:59:12,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1dcdc75 and iteration 1
+2020-01-06 13:59:13,925 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-26
+2020-01-06 13:59:13,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8e3554 and iteration 1
+2020-01-06 13:59:14,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-27
+2020-01-06 13:59:14,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1a1668f and iteration 1
+2020-01-06 13:59:15,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-28
+2020-01-06 13:59:15,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@b45c44 and iteration 1
+2020-01-06 13:59:16,925 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-29
+2020-01-06 13:59:16,926 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f08a92 and iteration 1
+2020-01-06 13:59:17,926 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-30
+2020-01-06 13:59:17,927 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@d106ab and iteration 1
+2020-01-06 15:02:23,848 INFO o.a.j.g.a.Start: Stopping test
+2020-01-06 15:02:23,855 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-15
+2020-01-06 15:02:23,855 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-15 sampler: administradora PDV
+2020-01-06 15:02:23,856 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-28
+2020-01-06 15:02:23,856 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-28 sampler: administradora PDV
+2020-01-06 15:02:23,857 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-15
+2020-01-06 15:02:23,857 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-2
+2020-01-06 15:02:23,857 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-28
+2020-01-06 15:02:23,858 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-2 sampler: administradora PDV
+2020-01-06 15:02:23,858 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-30
+2020-01-06 15:02:23,858 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-30 sampler: administradora PDV
+2020-01-06 15:02:23,859 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-2
+2020-01-06 15:02:23,859 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-30
+2020-01-06 15:02:23,859 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-6
+2020-01-06 15:02:23,859 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-6 sampler: administradora PDV
+2020-01-06 15:02:23,860 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-24
+2020-01-06 15:02:23,860 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-24 sampler: administradora PDV
+2020-01-06 15:02:23,860 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-6
+2020-01-06 15:02:23,861 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-10
+2020-01-06 15:02:23,861 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-10 sampler: administradora PDV
+2020-01-06 15:02:23,862 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-24
+2020-01-06 15:02:23,862 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-3
+2020-01-06 15:02:23,862 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-10
+2020-01-06 15:02:23,863 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-3 sampler: administradora PDV
+2020-01-06 15:02:23,864 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-3
+2020-01-06 15:02:23,864 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-25
+2020-01-06 15:02:23,864 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-25 sampler: administradora PDV
+2020-01-06 15:02:23,865 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-26
+2020-01-06 15:02:23,865 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-25
+2020-01-06 15:02:23,865 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-26 sampler: administradora PDV
+2020-01-06 15:02:23,866 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-16
+2020-01-06 15:02:23,866 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-16 sampler: administradora PDV
+2020-01-06 15:02:23,867 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-26
+2020-01-06 15:02:23,867 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-29
+2020-01-06 15:02:23,867 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-29 sampler: administradora PDV
+2020-01-06 15:02:23,867 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-16
+2020-01-06 15:02:23,867 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-17
+2020-01-06 15:02:23,868 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-17 sampler: administradora PDV
+2020-01-06 15:02:23,868 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-29
+2020-01-06 15:02:23,868 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-1
+2020-01-06 15:02:23,868 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-1 sampler: administradora PDV
+2020-01-06 15:02:23,869 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-17
+2020-01-06 15:02:23,869 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-19
+2020-01-06 15:02:23,869 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-06 15:02:23,870 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-19 sampler: administradora PDV
+2020-01-06 15:02:23,870 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-11
+2020-01-06 15:02:23,871 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-11 sampler: administradora PDV
+2020-01-06 15:02:23,871 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-19
+2020-01-06 15:02:23,871 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-20
+2020-01-06 15:02:23,871 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-11
+2020-01-06 15:02:23,871 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-20 sampler: administradora PDV
+2020-01-06 15:02:23,872 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-27
+2020-01-06 15:02:23,872 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-27 sampler: administradora PDV
+2020-01-06 15:02:23,873 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-20
+2020-01-06 15:02:23,873 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-8
+2020-01-06 15:02:23,873 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-8 sampler: administradora PDV
+2020-01-06 15:02:23,873 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-27
+2020-01-06 15:02:23,874 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-4
+2020-01-06 15:02:23,874 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-4 sampler: administradora PDV
+2020-01-06 15:02:23,874 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-8
+2020-01-06 15:02:23,875 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-9
+2020-01-06 15:02:23,875 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-9 sampler: administradora PDV
+2020-01-06 15:02:23,875 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-4
+2020-01-06 15:02:23,876 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-13
+2020-01-06 15:02:23,876 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-13 sampler: administradora PDV
+2020-01-06 15:02:23,876 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-5
+2020-01-06 15:02:23,876 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-9
+2020-01-06 15:02:23,876 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-5 sampler: administradora PDV
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-13
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-14
+2020-01-06 15:02:23,877 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-14 sampler: administradora PDV
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-5
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-22
+2020-01-06 15:02:23,877 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-22 sampler: administradora PDV
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-14
+2020-01-06 15:02:23,877 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-7
+2020-01-06 15:02:23,878 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-7 sampler: administradora PDV
+2020-01-06 15:02:23,878 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-22
+2020-01-06 15:02:23,878 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-18
+2020-01-06 15:02:23,878 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-18 sampler: administradora PDV
+2020-01-06 15:02:23,878 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-7
+2020-01-06 15:02:23,879 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-21
+2020-01-06 15:02:23,879 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-18
+2020-01-06 15:02:23,879 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-21 sampler: administradora PDV
+2020-01-06 15:02:23,879 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-12
+2020-01-06 15:02:23,879 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-12 sampler: administradora PDV
+2020-01-06 15:02:23,879 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-21
+2020-01-06 15:02:23,880 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-23
+2020-01-06 15:02:23,880 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-23 sampler: administradora PDV
+2020-01-06 15:02:23,880 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-12
+2020-01-06 15:02:23,880 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-23
+2020-01-06 15:02:23,881 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-06 15:02:23,924 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2020-01-06 15:02:23,925 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-06 15:02:23,925 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-01-06 15:15:04,189 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-06 15:15:04,190 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 15:15:04,191 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-06 15:15:04,193 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-06 15:15:04,193 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-06 15:15:04,193 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group setUp Thread Group.
+2020-01-06 15:15:04,193 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-06 15:15:04,193 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=30 delayedStart=false
+2020-01-06 15:15:04,194 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-06 15:15:04,195 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@7cdf28 and iteration 1
+2020-01-06 15:15:04,202 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-06 15:15:04,202 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-06 15:15:05,193 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-2
+2020-01-06 15:15:05,193 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@b46f20 and iteration 1
+2020-01-06 15:15:06,194 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-3
+2020-01-06 15:15:06,194 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1fb114b and iteration 1
+2020-01-06 15:15:07,193 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-4
+2020-01-06 15:15:07,193 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@ac2e2d and iteration 1
+2020-01-06 15:15:08,195 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-5
+2020-01-06 15:15:08,195 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@157bfbd and iteration 1
+2020-01-06 15:15:09,193 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-6
+2020-01-06 15:15:09,193 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f9ac4d and iteration 1
+2020-01-06 15:15:10,215 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-7
+2020-01-06 15:15:10,216 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@581161 and iteration 1
+2020-01-06 15:15:11,262 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-8
+2020-01-06 15:15:11,263 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1d8e5eb and iteration 1
+2020-01-06 15:15:12,283 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-9
+2020-01-06 15:15:12,283 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1d6c749 and iteration 1
+2020-01-06 15:15:13,335 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-10
+2020-01-06 15:15:13,335 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f808ac and iteration 1
+2020-01-06 15:15:14,284 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-11
+2020-01-06 15:15:14,285 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8007f2 and iteration 1
+2020-01-06 15:15:15,324 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-12
+2020-01-06 15:15:15,324 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1e497d3 and iteration 1
+2020-01-06 15:15:16,330 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-13
+2020-01-06 15:15:16,331 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1db5266 and iteration 1
+2020-01-06 15:15:17,360 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-14
+2020-01-06 15:15:17,360 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@143525b and iteration 1
+2020-01-06 15:15:18,325 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-15
+2020-01-06 15:15:18,326 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@29d6c1 and iteration 1
+2020-01-06 15:15:19,328 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-16
+2020-01-06 15:15:19,328 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1db4901 and iteration 1
+2020-01-06 15:15:20,303 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-17
+2020-01-06 15:15:20,304 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@f5d196 and iteration 1
+2020-01-06 15:15:21,348 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-18
+2020-01-06 15:15:21,349 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@10c278f and iteration 1
+2020-01-06 15:15:22,303 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-19
+2020-01-06 15:15:22,304 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@e768a and iteration 1
+2020-01-06 15:15:23,394 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-20
+2020-01-06 15:15:23,395 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@5661d4 and iteration 1
+2020-01-06 15:15:24,215 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-21
+2020-01-06 15:15:24,215 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@117df3c and iteration 1
+2020-01-06 15:15:25,416 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-22
+2020-01-06 15:15:25,417 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@bc7d8e and iteration 1
+2020-01-06 15:15:26,256 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-23
+2020-01-06 15:15:26,256 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1e69c98 and iteration 1
+2020-01-06 15:15:27,396 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-24
+2020-01-06 15:15:27,396 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@fc05aa and iteration 1
+2020-01-06 15:15:28,414 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-25
+2020-01-06 15:15:28,415 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1cefd57 and iteration 1
+2020-01-06 15:15:29,425 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-26
+2020-01-06 15:15:29,426 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@137b2eb and iteration 1
+2020-01-06 15:15:30,434 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-27
+2020-01-06 15:15:30,434 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@13e2f07 and iteration 1
+2020-01-06 15:15:31,451 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-28
+2020-01-06 15:15:31,452 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1e111f0 and iteration 1
+2020-01-06 15:15:32,416 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-29
+2020-01-06 15:15:32,416 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@a56c27 and iteration 1
+2020-01-06 15:15:33,474 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-30
+2020-01-06 15:15:33,474 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@7f383a and iteration 1
+2020-01-06 15:16:26,151 INFO o.a.j.g.a.Start: Stopping test
+2020-01-06 15:16:26,156 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-17
+2020-01-06 15:16:26,156 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-17 sampler: administradora PDV
+2020-01-06 15:16:26,157 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-20
+2020-01-06 15:16:26,157 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-20 sampler: administradora PDV
+2020-01-06 15:16:26,158 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-2
+2020-01-06 15:16:26,158 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-2 sampler: administradora PDV
+2020-01-06 15:16:26,158 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-17
+2020-01-06 15:16:26,158 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-20
+2020-01-06 15:16:26,159 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-13
+2020-01-06 15:16:26,159 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-13 sampler: administradora PDV
+2020-01-06 15:16:26,159 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-2
+2020-01-06 15:16:26,159 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-8
+2020-01-06 15:16:26,159 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-8 sampler: administradora PDV
+2020-01-06 15:16:26,160 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-13
+2020-01-06 15:16:26,160 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-29
+2020-01-06 15:16:26,160 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-8
+2020-01-06 15:16:26,160 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-29 sampler: administradora PDV
+2020-01-06 15:16:26,161 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-4
+2020-01-06 15:16:26,161 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-4 sampler: administradora PDV
+2020-01-06 15:16:26,161 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-29
+2020-01-06 15:16:26,162 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-10
+2020-01-06 15:16:26,162 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-4
+2020-01-06 15:16:26,162 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-10 sampler: administradora PDV
+2020-01-06 15:16:26,163 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-24
+2020-01-06 15:16:26,163 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-24 sampler: administradora PDV
+2020-01-06 15:16:26,163 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-10
+2020-01-06 15:16:26,164 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-24
+2020-01-06 15:16:26,164 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-3
+2020-01-06 15:16:26,165 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-3 sampler: administradora PDV
+2020-01-06 15:16:26,165 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-12
+2020-01-06 15:16:26,165 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-12 sampler: administradora PDV
+2020-01-06 15:16:26,166 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-3
+2020-01-06 15:16:26,166 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-16
+2020-01-06 15:16:26,166 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-16 sampler: administradora PDV
+2020-01-06 15:16:26,167 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-12
+2020-01-06 15:16:26,167 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-16
+2020-01-06 15:16:26,167 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-27
+2020-01-06 15:16:26,168 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-27 sampler: administradora PDV
+2020-01-06 15:16:26,169 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-27
+2020-01-06 15:16:26,169 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-11
+2020-01-06 15:16:26,169 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-11 sampler: administradora PDV
+2020-01-06 15:16:26,170 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-15
+2020-01-06 15:16:26,170 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-15 sampler: administradora PDV
+2020-01-06 15:16:26,171 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-11
+2020-01-06 15:16:26,171 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-25
+2020-01-06 15:16:26,171 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-15
+2020-01-06 15:16:26,171 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-25 sampler: administradora PDV
+2020-01-06 15:16:26,172 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-23
+2020-01-06 15:16:26,172 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-23 sampler: administradora PDV
+2020-01-06 15:16:26,172 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-25
+2020-01-06 15:16:26,172 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-9
+2020-01-06 15:16:26,172 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-23
+2020-01-06 15:16:26,172 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-9 sampler: administradora PDV
+2020-01-06 15:16:26,173 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-28
+2020-01-06 15:16:26,173 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-28 sampler: administradora PDV
+2020-01-06 15:16:26,173 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-9
+2020-01-06 15:16:26,173 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-6
+2020-01-06 15:16:26,173 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-6 sampler: administradora PDV
+2020-01-06 15:16:26,173 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-28
+2020-01-06 15:16:26,175 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-26
+2020-01-06 15:16:26,175 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-26 sampler: administradora PDV
+2020-01-06 15:16:26,175 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-6
+2020-01-06 15:16:26,175 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-7
+2020-01-06 15:16:26,175 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-26
+2020-01-06 15:16:26,175 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-7 sampler: administradora PDV
+2020-01-06 15:16:26,176 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-14
+2020-01-06 15:16:26,176 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-7
+2020-01-06 15:16:26,176 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-14 sampler: administradora PDV
+2020-01-06 15:16:26,176 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-5
+2020-01-06 15:16:26,176 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-5 sampler: administradora PDV
+2020-01-06 15:16:26,176 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-14
+2020-01-06 15:16:26,177 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-18
+2020-01-06 15:16:26,177 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-5
+2020-01-06 15:16:26,177 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-18 sampler: administradora PDV
+2020-01-06 15:16:26,178 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-18
+2020-01-06 15:16:26,178 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-19
+2020-01-06 15:16:26,178 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-19 sampler: administradora PDV
+2020-01-06 15:16:26,178 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-19
+2020-01-06 15:16:26,178 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-21
+2020-01-06 15:16:26,178 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-21 sampler: administradora PDV
+2020-01-06 15:16:26,179 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-21
+2020-01-06 15:16:26,179 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-22
+2020-01-06 15:16:26,179 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-22 sampler: administradora PDV
+2020-01-06 15:16:26,180 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-1
+2020-01-06 15:16:26,180 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-22
+2020-01-06 15:16:26,180 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-1 sampler: administradora PDV
+2020-01-06 15:16:26,180 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-30
+2020-01-06 15:16:26,180 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-30 sampler: administradora PDV
+2020-01-06 15:16:26,180 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-06 15:16:26,181 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-30
+2020-01-06 15:16:26,181 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-06 15:16:26,352 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2020-01-06 15:16:26,352 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-06 15:16:26,352 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-01-06 16:21:28,917 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-06 16:21:28,917 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 16:21:28,918 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-06 16:21:28,920 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-06 16:21:28,920 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-06 16:21:28,920 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group setUp Thread Group.
+2020-01-06 16:21:28,920 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-06 16:21:28,920 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=30 delayedStart=false
+2020-01-06 16:21:28,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-06 16:21:28,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1c023e and iteration 1
+2020-01-06 16:21:28,929 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-06 16:21:28,929 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-06 16:21:29,931 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-2
+2020-01-06 16:21:29,931 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8a429f and iteration 1
+2020-01-06 16:21:30,941 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-3
+2020-01-06 16:21:30,941 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1b2a89e and iteration 1
+2020-01-06 16:21:31,941 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-4
+2020-01-06 16:21:31,941 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@168f41c and iteration 1
+2020-01-06 16:21:32,942 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-5
+2020-01-06 16:21:32,942 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1b4d266 and iteration 1
+2020-01-06 16:21:33,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-6
+2020-01-06 16:21:33,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@11c0f43 and iteration 1
+2020-01-06 16:21:34,937 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-7
+2020-01-06 16:21:34,937 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1e966a0 and iteration 1
+2020-01-06 16:21:35,938 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-8
+2020-01-06 16:21:35,938 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@15495ed and iteration 1
+2020-01-06 16:21:36,936 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-9
+2020-01-06 16:21:36,936 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@58d1d5 and iteration 1
+2020-01-06 16:21:37,936 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-10
+2020-01-06 16:21:37,936 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@145d167 and iteration 1
+2020-01-06 16:21:38,937 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-11
+2020-01-06 16:21:38,937 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@4ac0c0 and iteration 1
+2020-01-06 16:21:39,939 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-12
+2020-01-06 16:21:39,940 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8932e and iteration 1
+2020-01-06 16:21:40,937 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-13
+2020-01-06 16:21:40,937 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@2debfd and iteration 1
+2020-01-06 16:21:41,938 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-14
+2020-01-06 16:21:41,938 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1ca5fa and iteration 1
+2020-01-06 16:21:42,937 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-15
+2020-01-06 16:21:42,937 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@170806e and iteration 1
+2020-01-06 16:21:43,922 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-16
+2020-01-06 16:21:43,922 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@28e167 and iteration 1
+2020-01-06 16:21:44,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-17
+2020-01-06 16:21:44,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@5c935b and iteration 1
+2020-01-06 16:21:45,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-18
+2020-01-06 16:21:45,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@edd2d0 and iteration 1
+2020-01-06 16:21:46,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-19
+2020-01-06 16:21:46,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@13416fd and iteration 1
+2020-01-06 16:21:47,922 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-20
+2020-01-06 16:21:47,922 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1b2a15d and iteration 1
+2020-01-06 16:21:48,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-21
+2020-01-06 16:21:48,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@182a8a0 and iteration 1
+2020-01-06 16:21:49,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-22
+2020-01-06 16:21:49,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@cad3dd and iteration 1
+2020-01-06 16:21:50,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-23
+2020-01-06 16:21:50,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@13cca9d and iteration 1
+2020-01-06 16:21:51,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-24
+2020-01-06 16:21:51,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@9a894f and iteration 1
+2020-01-06 16:21:52,922 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-25
+2020-01-06 16:21:52,922 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1c3ca00 and iteration 1
+2020-01-06 16:21:53,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-26
+2020-01-06 16:21:53,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@5239aa and iteration 1
+2020-01-06 16:21:54,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-27
+2020-01-06 16:21:54,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@bdf3a5 and iteration 1
+2020-01-06 16:21:55,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-28
+2020-01-06 16:21:55,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@17ed457 and iteration 1
+2020-01-06 16:21:56,921 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-29
+2020-01-06 16:21:56,921 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@ba8e65 and iteration 1
+2020-01-06 16:21:57,920 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-30
+2020-01-06 16:21:57,920 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@12e9f20 and iteration 1
+2020-01-06 16:25:47,307 INFO o.a.j.g.a.Start: Stopping test
+2020-01-06 16:25:47,313 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-28
+2020-01-06 16:25:47,314 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-28 sampler: administradora PDV
+2020-01-06 16:25:47,314 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-11
+2020-01-06 16:25:47,314 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-11 sampler: administradora PDV
+2020-01-06 16:25:47,315 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-28
+2020-01-06 16:25:47,315 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-11
+2020-01-06 16:25:47,316 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-20
+2020-01-06 16:25:47,316 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-20 sampler: administradora PDV
+2020-01-06 16:25:47,316 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-14
+2020-01-06 16:25:47,317 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-14 sampler: administradora PDV
+2020-01-06 16:25:47,317 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-20
+2020-01-06 16:25:47,317 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-21
+2020-01-06 16:25:47,317 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-14
+2020-01-06 16:25:47,317 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-21 sampler: administradora PDV
+2020-01-06 16:25:47,318 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-19
+2020-01-06 16:25:47,318 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-19 sampler: administradora PDV
+2020-01-06 16:25:47,319 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-21
+2020-01-06 16:25:47,319 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-15
+2020-01-06 16:25:47,319 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-15 sampler: administradora PDV
+2020-01-06 16:25:47,320 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-19
+2020-01-06 16:25:47,320 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-22
+2020-01-06 16:25:47,320 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-22 sampler: administradora PDV
+2020-01-06 16:25:47,320 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-15
+2020-01-06 16:25:47,322 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-22
+2020-01-06 16:25:47,321 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-29
+2020-01-06 16:25:47,322 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-29 sampler: administradora PDV
+2020-01-06 16:25:47,323 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-4
+2020-01-06 16:25:47,323 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-4 sampler: administradora PDV
+2020-01-06 16:25:47,324 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-29
+2020-01-06 16:25:47,324 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-5
+2020-01-06 16:25:47,324 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-5 sampler: administradora PDV
+2020-01-06 16:25:47,325 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-4
+2020-01-06 16:25:47,326 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-5
+2020-01-06 16:25:47,327 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-25
+2020-01-06 16:25:47,327 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-25 sampler: administradora PDV
+2020-01-06 16:25:47,328 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-7
+2020-01-06 16:25:47,328 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-7 sampler: administradora PDV
+2020-01-06 16:25:47,328 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-25
+2020-01-06 16:25:47,329 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-27
+2020-01-06 16:25:47,329 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-7
+2020-01-06 16:25:47,329 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-27 sampler: administradora PDV
+2020-01-06 16:25:47,330 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-3
+2020-01-06 16:25:47,330 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-3 sampler: administradora PDV
+2020-01-06 16:25:47,331 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-27
+2020-01-06 16:25:47,331 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-23
+2020-01-06 16:25:47,331 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-3
+2020-01-06 16:25:47,331 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-23 sampler: administradora PDV
+2020-01-06 16:25:47,332 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-2
+2020-01-06 16:25:47,332 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-2 sampler: administradora PDV
+2020-01-06 16:25:47,332 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-23
+2020-01-06 16:25:47,333 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-2
+2020-01-06 16:25:47,334 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-17
+2020-01-06 16:25:47,334 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-17 sampler: administradora PDV
+2020-01-06 16:25:47,334 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-8
+2020-01-06 16:25:47,334 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-8 sampler: administradora PDV
+2020-01-06 16:25:47,335 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-17
+2020-01-06 16:25:47,335 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-8
+2020-01-06 16:25:47,335 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-24
+2020-01-06 16:25:47,336 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-24 sampler: administradora PDV
+2020-01-06 16:25:47,337 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-9
+2020-01-06 16:25:47,337 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-24
+2020-01-06 16:25:47,338 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-9 sampler: administradora PDV
+2020-01-06 16:25:47,338 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-12
+2020-01-06 16:25:47,338 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-12 sampler: administradora PDV
+2020-01-06 16:25:47,338 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-9
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-12
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-16
+2020-01-06 16:25:47,339 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-16 sampler: administradora PDV
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-30
+2020-01-06 16:25:47,339 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-30 sampler: administradora PDV
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-16
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-30
+2020-01-06 16:25:47,339 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-10
+2020-01-06 16:25:47,340 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-10 sampler: administradora PDV
+2020-01-06 16:25:47,340 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-1
+2020-01-06 16:25:47,340 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-1 sampler: administradora PDV
+2020-01-06 16:25:47,340 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-10
+2020-01-06 16:25:47,340 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-13
+2020-01-06 16:25:47,340 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-06 16:25:47,340 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-13 sampler: administradora PDV
+2020-01-06 16:25:47,341 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-18
+2020-01-06 16:25:47,341 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-18 sampler: administradora PDV
+2020-01-06 16:25:47,341 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-13
+2020-01-06 16:25:47,341 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-6
+2020-01-06 16:25:47,341 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-18
+2020-01-06 16:25:47,341 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-6 sampler: administradora PDV
+2020-01-06 16:25:47,341 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-26
+2020-01-06 16:25:47,342 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-26 sampler: administradora PDV
+2020-01-06 16:25:47,342 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-6
+2020-01-06 16:25:47,342 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-26
+2020-01-06 16:25:47,342 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-06 16:25:47,605 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2020-01-06 16:25:47,605 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-06 16:25:47,605 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-01-06 17:55:16,020 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-06 17:55:16,020 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-06 17:55:16,021 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-06 17:55:16,023 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-06 17:55:16,023 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-06 17:55:16,023 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group setUp Thread Group.
+2020-01-06 17:55:16,023 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-06 17:55:16,023 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=30 delayedStart=false
+2020-01-06 17:55:16,031 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-06 17:55:16,033 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1262493 and iteration 1
+2020-01-06 17:55:16,034 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-06 17:55:16,034 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-06 17:55:17,025 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-2
+2020-01-06 17:55:17,025 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@22a3f4 and iteration 1
+2020-01-06 17:55:18,030 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-3
+2020-01-06 17:55:18,030 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@cb3a59 and iteration 1
+2020-01-06 17:55:19,032 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-4
+2020-01-06 17:55:19,032 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@c1f517 and iteration 1
+2020-01-06 17:55:20,033 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-5
+2020-01-06 17:55:20,033 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@12570c1 and iteration 1
+2020-01-06 17:55:21,033 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-6
+2020-01-06 17:55:21,033 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8a9e7a and iteration 1
+2020-01-06 17:55:22,031 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-7
+2020-01-06 17:55:22,031 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@8de610 and iteration 1
+2020-01-06 17:55:23,025 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-8
+2020-01-06 17:55:23,025 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@d20613 and iteration 1
+2020-01-06 17:55:24,024 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-9
+2020-01-06 17:55:24,024 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@116ba and iteration 1
+2020-01-06 17:55:25,024 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-10
+2020-01-06 17:55:25,024 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@11ba7d4 and iteration 1
+2020-01-06 17:55:26,114 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-11
+2020-01-06 17:55:26,114 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@287162 and iteration 1
+2020-01-06 17:55:27,152 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-12
+2020-01-06 17:55:27,153 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@a5fb4d and iteration 1
+2020-01-06 17:55:28,125 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-13
+2020-01-06 17:55:28,125 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1185cf1 and iteration 1
+2020-01-06 17:55:29,119 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-14
+2020-01-06 17:55:29,119 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1121b60 and iteration 1
+2020-01-06 17:55:30,149 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-15
+2020-01-06 17:55:30,149 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@3b3270 and iteration 1
+2020-01-06 17:55:31,183 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-16
+2020-01-06 17:55:31,184 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@75e86f and iteration 1
+2020-01-06 17:55:32,177 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-17
+2020-01-06 17:55:32,178 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@13d1fa4 and iteration 1
+2020-01-06 17:55:33,193 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-18
+2020-01-06 17:55:33,193 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@16510f8 and iteration 1
+2020-01-06 17:55:34,155 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-19
+2020-01-06 17:55:34,155 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@b2078a and iteration 1
+2020-01-06 17:55:35,180 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-20
+2020-01-06 17:55:35,180 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1adbe79 and iteration 1
+2020-01-06 17:55:36,220 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-21
+2020-01-06 17:55:36,221 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@31d70d and iteration 1
+2020-01-06 17:55:37,194 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-22
+2020-01-06 17:55:37,194 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@fc935a and iteration 1
+2020-01-06 17:55:38,205 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-23
+2020-01-06 17:55:38,206 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@cf94d9 and iteration 1
+2020-01-06 17:55:39,284 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-24
+2020-01-06 17:55:39,285 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@18b2a43 and iteration 1
+2020-01-06 17:55:40,078 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-25
+2020-01-06 17:55:40,080 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@ba5b24 and iteration 1
+2020-01-06 17:55:41,089 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-26
+2020-01-06 17:55:41,090 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@bf35ff and iteration 1
+2020-01-06 17:55:42,339 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-27
+2020-01-06 17:55:42,339 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@1b9a7a and iteration 1
+2020-01-06 17:55:43,216 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-28
+2020-01-06 17:55:43,217 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@e0dbd4 and iteration 1
+2020-01-06 17:55:44,238 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-29
+2020-01-06 17:55:44,239 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@de5dc5 and iteration 1
+2020-01-06 17:55:45,301 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-30
+2020-01-06 17:55:45,301 INFO o.a.j.c.LoopController: iterationStart called on Loop Controller Sincronizacoes with source org.apache.jmeter.control.LoopController@6a9257 and iteration 1
+2020-01-06 18:00:54,039 INFO o.a.j.g.a.Start: Stopping test
+2020-01-06 18:00:54,044 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-12
+2020-01-06 18:00:54,044 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-12 sampler: administradora PDV
+2020-01-06 18:00:54,045 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-16
+2020-01-06 18:00:54,045 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-16 sampler: administradora PDV
+2020-01-06 18:00:54,046 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-12
+2020-01-06 18:00:54,046 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-16
+2020-01-06 18:00:54,046 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-30
+2020-01-06 18:00:54,046 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-30 sampler: administradora PDV
+2020-01-06 18:00:54,047 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-10
+2020-01-06 18:00:54,047 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-10 sampler: administradora PDV
+2020-01-06 18:00:54,047 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-30
+2020-01-06 18:00:54,048 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-11
+2020-01-06 18:00:54,048 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-10
+2020-01-06 18:00:54,048 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-11 sampler: administradora PDV
+2020-01-06 18:00:54,048 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-27
+2020-01-06 18:00:54,048 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-27 sampler: administradora PDV
+2020-01-06 18:00:54,049 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-11
+2020-01-06 18:00:54,049 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-15
+2020-01-06 18:00:54,049 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-27
+2020-01-06 18:00:54,049 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-15 sampler: administradora PDV
+2020-01-06 18:00:54,050 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-21
+2020-01-06 18:00:54,050 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-21 sampler: administradora PDV
+2020-01-06 18:00:54,050 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-15
+2020-01-06 18:00:54,050 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-1
+2020-01-06 18:00:54,050 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-1 sampler: administradora PDV
+2020-01-06 18:00:54,050 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-21
+2020-01-06 18:00:54,051 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-9
+2020-01-06 18:00:54,051 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-9 sampler: administradora PDV
+2020-01-06 18:00:54,051 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-06 18:00:54,052 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-28
+2020-01-06 18:00:54,052 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-9
+2020-01-06 18:00:54,052 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-28 sampler: administradora PDV
+2020-01-06 18:00:54,052 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-20
+2020-01-06 18:00:54,052 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-28
+2020-01-06 18:00:54,052 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-20 sampler: administradora PDV
+2020-01-06 18:00:54,053 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-17
+2020-01-06 18:00:54,053 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-17 sampler: administradora PDV
+2020-01-06 18:00:54,054 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-20
+2020-01-06 18:00:54,054 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-17
+2020-01-06 18:00:54,054 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-6
+2020-01-06 18:00:54,055 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-6 sampler: administradora PDV
+2020-01-06 18:00:54,055 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-3
+2020-01-06 18:00:54,055 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-6
+2020-01-06 18:00:54,055 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-3 sampler: administradora PDV
+2020-01-06 18:00:54,057 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-14
+2020-01-06 18:00:54,057 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-3
+2020-01-06 18:00:54,057 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-14 sampler: administradora PDV
+2020-01-06 18:00:54,058 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-23
+2020-01-06 18:00:54,058 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-23 sampler: administradora PDV
+2020-01-06 18:00:54,058 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-14
+2020-01-06 18:00:54,059 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-24
+2020-01-06 18:00:54,059 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-24 sampler: administradora PDV
+2020-01-06 18:00:54,059 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-23
+2020-01-06 18:00:54,059 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-25
+2020-01-06 18:00:54,059 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-25 sampler: administradora PDV
+2020-01-06 18:00:54,060 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-24
+2020-01-06 18:00:54,060 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-13
+2020-01-06 18:00:54,060 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-13 sampler: administradora PDV
+2020-01-06 18:00:54,060 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-25
+2020-01-06 18:00:54,060 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-22
+2020-01-06 18:00:54,061 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-22 sampler: administradora PDV
+2020-01-06 18:00:54,061 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-13
+2020-01-06 18:00:54,061 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-29
+2020-01-06 18:00:54,061 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-29 sampler: administradora PDV
+2020-01-06 18:00:54,061 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-22
+2020-01-06 18:00:54,061 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-19
+2020-01-06 18:00:54,062 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-19 sampler: administradora PDV
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-29
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-4
+2020-01-06 18:00:54,062 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-4 sampler: administradora PDV
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-19
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-5
+2020-01-06 18:00:54,062 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-5 sampler: administradora PDV
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-4
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-8
+2020-01-06 18:00:54,062 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-8 sampler: administradora PDV
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-5
+2020-01-06 18:00:54,062 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-18
+2020-01-06 18:00:54,063 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-18 sampler: administradora PDV
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-8
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-2
+2020-01-06 18:00:54,063 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-2 sampler: administradora PDV
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-18
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-7
+2020-01-06 18:00:54,063 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-7 sampler: administradora PDV
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-2
+2020-01-06 18:00:54,063 INFO o.a.j.t.JMeterThread: Stopping: setUp Thread Group 1-26
+2020-01-06 18:00:54,063 WARN o.a.j.t.JMeterThread: Interrupting: setUp Thread Group 1-26 sampler: administradora PDV
+2020-01-06 18:00:54,064 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-7
+2020-01-06 18:00:54,064 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-26
+2020-01-06 18:00:54,064 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-06 18:00:54,108 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2020-01-06 18:00:54,109 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-06 18:00:54,109 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-01-06 18:23:02,065 INFO o.a.j.g.a.Load: Loading file: C:\Users\s152\Desktop\teste_mono_desempenho.jmx
+2020-01-06 18:23:02,065 INFO o.a.j.s.FileServer: Set new base='C:\Users\s152\Desktop'
+2020-01-06 18:23:02,065 INFO o.a.j.s.SaveService: Loading file: C:\Users\s152\Desktop\teste_mono_desempenho.jmx
+2020-01-06 18:23:03,075 INFO o.a.j.s.FileServer: Set new base='C:\Users\s152\Desktop'

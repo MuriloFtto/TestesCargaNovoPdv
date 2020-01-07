@@ -1,0 +1,2 @@
+# JMeter generated Authorization file
+http://192.168.3.59	pdv-front-consumer	sysmosistemas	/		BASIC

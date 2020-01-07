@@ -1,0 +1,5 @@
+# JMeter generated Header file
+Content-Type	application/json
+Accept	application/json
+codigoEmpresa	1
+codigoPDV	
